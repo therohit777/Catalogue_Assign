@@ -11,8 +11,6 @@ const Login = () => {
 
   const handleinputs=(name,email)=>{
     setcurrentUser([name.current.value,email.current.value]);
-    console.log(name.current.value);
-    console.log(email.current.value);
   }
   return (
     <div className='login_container'>
